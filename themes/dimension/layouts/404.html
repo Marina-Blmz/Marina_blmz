@@ -1,32 +1,10 @@
-{{ partial "header.html" . }}
-
-<body class="is-preload">
-
-    <!-- Wrapper -->
-        <div id="wrapper">
-
-            <!-- Header -->
-                <header id="header">
-                    <div class="logo">
-                        <span class="icon fa-gem"></span>
-                    </div>
-                    <div class="content">
-                        <div class="inner">
-                            <h1><a href="{{ "/" | relURL }}">Go Home</a></h1>
-                            <p>
-                                Nothing to see here
-                            </p>
-                        </div>
-                    </div>
-                </header>
-
-                {{ partial "design.html" .}}
-
+{{ define "header" }}
+<header id="header">
+    <div class="content">
+        <div class="inner">
+            <h1>404</h1>
+            <p>We can't find the page you're looking for.<br /> Here's the link to the <a href="/">main page</a> instead.</p>
         </div>
-
-    <!-- BG -->
-    <div id="bg"></div>
-
-</body>
-
-{{ partial "footer.html" . }}
+    </div>
+</header>
+{{ end }}
