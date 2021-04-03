@@ -1,0 +1,24 @@
+baseURL: /
+languageCode: en-us
+DefaultContentLanguage: en
+title: Marina Bluma
+theme: dimension
+params:
+  author: Marina Bluma
+  copyrightPublishYear: '2021'
+  copyrightText: Template by Dmitry Pechnikov. Tuning by Marina Bluma
+  description: All things neuro
+languages:
+  en:
+    languageName: English
+    weight: 1
+  ru:
+    languageName: Russian
+    params:
+      author: Дмитрий Печников
+      description: Тема для генератора сайтов Hugo. Создана на основе HTML шаблона
+        Dimension от HTML5 UP.
+    title: Dimension
+    weight: 2
+permalinks:
+  '': /#:filename

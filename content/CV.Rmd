@@ -1,0 +1,15 @@
+---
+title: "CV"
+author: "Marina Bluma"
+date: 2021-04-03
+weight: 2
+summary: "my cv"
+---
+
+# Here is my CV
+
+
+```{r, out.width = "100%", echo = FALSE, message=FALSE, fig.align="center", fig.pos="H"}
+ knitr::include_graphics("/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/CV_Bluma-1.png")
+ knitr::include_graphics("/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/CV_Bluma-2.png")
+```
