@@ -7,7 +7,7 @@ theme = "dimension"
 
 [params]
     author = "Marina Bluma"
-    description = "All things neuroimaging and Alzheimer's disease"
+    description = "Personal site of Marina Bluma."
     copyrightPublishYear = "2021"
     copyrightText = " Template by Dmitry Pechnikov. Tuning and photos by Marina Bluma"
     disableLogo = false
