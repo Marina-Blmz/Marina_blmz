@@ -11,6 +11,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum fac
 
 # Photo
 
-```{r, out.width = "90%", echo = FALSE, message=FALSE, fig.align="center", fig.cap="avatar_small", fig.pos="H"}
+```{r, out.width = "70%", echo = FALSE, message=FALSE, fig.align="center", fig.cap="avatar_small", fig.pos="H"}
  knitr::include_graphics("/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/avatar_small.jpg")
 ```

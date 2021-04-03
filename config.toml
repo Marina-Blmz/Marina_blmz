@@ -18,7 +18,7 @@ theme = "dimension"
     baseFontSize = "2rem"
     # overlayOpacityPercentage = "50"
     # disableImageOverlay = false
-    modalWidth = "80rem"
+    modalWidth = "70rem"
 
     # customCSS = "custom.css"
 
