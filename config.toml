@@ -19,7 +19,6 @@ theme = "dimension"
     # overlayOpacityPercentage = "50"
     # disableImageOverlay = false
     modalWidth = "80rem"
-    disablepathtolower = true
 
     # customCSS = "custom.css"
 
@@ -35,7 +34,7 @@ theme = "dimension"
         title = "My personal site"
         [languages.ru.params]
             author = "Marina Bluma"
-            description = "Тема для генератора сайтов Hugo. Создана на основе HTML шаблона Dimension от HTML5 UP."
+            description = "Возможно. Вам это снится"
 
 
 [permalinks]

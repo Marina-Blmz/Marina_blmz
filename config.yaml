@@ -16,9 +16,8 @@ languages:
     languageName: Russian
     params:
       author: Дмитрий Печников
-      description: Тема для генератора сайтов Hugo. Создана на основе HTML шаблона
-        Dimension от HTML5 UP.
-    title: Dimension
+      description: Возможно. Вам это снится
+    title: Возможно. Вам это снится
     weight: 2
 permalinks:
   '': /#:filename
