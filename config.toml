@@ -3,7 +3,7 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Marina Bluma"
 theme = "dimension"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-BD51CG8DSH"
 
 [params]
     author = "Marina Bluma"
@@ -13,7 +13,7 @@ theme = "dimension"
     disableLogo = false
      logoImage = "brain_white.png"
     # logoIcon = "gem"
-     titleFontSize = "3.25rem"
+     titleFont  Size = "3.25rem"
      subtitleFontSize = "3.8rem"
     baseFontSize = "2rem"
     # overlayOpacityPercentage = "50"
