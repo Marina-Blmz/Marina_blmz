@@ -34,7 +34,7 @@ googleAnalytics = "G-BD51CG8DSH"
         title = "Marina Bluma's personal site"
         [languages.ru.params]
             author = "Marina Bluma"
-            description = "Возможно. Вам это снится"
+            description = "Не взлетим,так поплаваем"
 
 
 [permalinks]
