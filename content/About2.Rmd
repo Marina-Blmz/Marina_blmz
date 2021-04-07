@@ -17,6 +17,6 @@ I like R, FSL, ANTs, shell, computing on a cluster, and reproducible open scienc
 
 # Photo
 
-```{r, out.width = "70%", echo = FALSE, message=FALSE, fig.align="center", fig.cap="avatar_small", fig.pos="H"}
+```{r, out.width = "70%", echo = FALSE, message=FALSE, fig.align="center", fig.pos="H"}
  knitr::include_graphics("/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/avatar_small.jpg")
 ```
