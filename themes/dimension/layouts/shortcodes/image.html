@@ -1,7 +1,8 @@
-<span class="image {{ .Get "position" | default "main" }}">
-    <img
-            src="{{ .Get "src" }}"
-            {{ with .Get "alt" }}alt="{{.}}"{{ end }}
-            {{ with .Get "title" }}title="{{.}}"{{ end }}
-    />
-</span>
+{{ if .IsNamedParams }}
+    <span class="image {{ .Get "set" }}">
+        <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+    </span>
+{{ else }}
+    <span class="image {{ .Get 1 }}"><img src="{{ .Get 0 }}" alt="" /></span>
+{{ end }}
+
