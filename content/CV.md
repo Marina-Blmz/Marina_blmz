@@ -12,4 +12,5 @@ summary: "my cv"
 # Here is my CV
 
 
-<img src="/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/CV_Bluma-1.png" width="100%" style="display: block; margin: auto;" /><img src="/Users/rina_blmz/Desktop/X_marina/Marina_blmz/content/CV_Bluma-2.png" width="100%" style="display: block; margin: auto;" />
+{{< figure src="/images/CV_Bluma-1.png" width="100%" style="display: block; margin: auto;" />}}
+{{< figure src="/images/CV_Bluma-2.png" width="100%" style="display: block; margin: auto;" />}}
