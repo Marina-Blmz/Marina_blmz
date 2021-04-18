@@ -2,10 +2,11 @@
 Put your custom styles here.
  */
  img[src$='#style1']{
+  display: block;
 	max-width: 80%;
 	height: auto;
-	padding: 15px;
-  float: center;;
+	padding:15px;
+	margin: 0.7rem auto;
 	border-radius: 50%;
 }
 img[src$='#center']{
