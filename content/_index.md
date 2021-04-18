@@ -1,6 +1,6 @@
 ---
 title: Marina Bluma
-description: All things neuro
+description: In the battle between science and storytelling, science must win.
 ---
  
 [Dimension]All things neuro

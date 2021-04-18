@@ -1,4 +1,4 @@
-<header id="header">
+    <header id="header">
     {{ if not (.Site.Params.disableLogo | default false) }}
     <div class="logo">
         {{ if .Site.Params.logoImage | default "" }}
@@ -17,13 +17,22 @@
                     {{ .Scratch.Set "currentTranslation" (index (where .AllTranslations "Lang" $defaultLanguage) 0) }}
                 {{ end }}
             {{ end }}
-
             {{- with or (.Scratch.Get "currentTranslation") . -}}
             <h1>{{ .Title }}</h1>
             <p>{{ .Content | markdownify }}</p>
             {{ end }}
         </div>
     </div>
+                   <div class="content">
+                        <div class="inner">
+                            {{ if .Params.description }}
+                            <p>
+                                {{ .Params.description }}
+                            </p>
+                            {{ end }}
+                        </div> 
+                        <nav>
+         </div>
     <nav>
         <ul>
             {{ range (.Pages | lang.Merge .Sites.First.RegularPages) }}
@@ -38,4 +47,6 @@
             {{ end }}
         </ul>
     </nav>
+    <!-- Include the script that enables Netlify Identity on this page. -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </header>
