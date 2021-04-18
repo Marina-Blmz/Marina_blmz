@@ -22,19 +22,14 @@
             <p>{{ .Content | markdownify }}</p>
             {{ end }}
         </div>
-    </div>
-                   <div class="content">
-                        <div class="inner">
                             {{ if .Params.description }}
                             <p>
                                 {{ .Params.description }}
                             </p>
-                            {{ end }}
-                        </div> 
-                        <nav>
-         </div>
-    <nav>
-        <ul>
+                           {{ end }}
+        </div>
+     <nav>
+         <ul> 
             {{ range (.Pages | lang.Merge .Sites.First.RegularPages) }}
                 {{ if .Params.showInMenu | default true }}
                 <li><a
