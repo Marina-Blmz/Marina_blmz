@@ -1,3 +1,25 @@
 /*
 Put your custom styles here.
  */
+ img[src$='#style1']{
+	max-width: 80%;
+	height: auto;
+	padding: 15px;
+  float: center;;
+	border-radius: 50%;
+}
+img[src$='#center']{
+  display: block;
+  margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+  /* whatever else styles you fancy here */
+ }
+img[src$='#floatleft']{
+    float:left;
+    margin: 0.7rem;
+}
+img[src$='#floatright']{
+    float:right;
+    margin: 0.7rem;
+}

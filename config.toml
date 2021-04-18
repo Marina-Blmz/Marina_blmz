@@ -19,8 +19,7 @@ googleAnalytics = "G-BD51CG8DSH"
     # overlayOpacityPercentage = "50"
     # disableImageOverlay = false
     modalWidth = "70rem"
-
-    # customCSS = "custom.css"
+    customCSS = "custom.css"
 
 
 [languages]
