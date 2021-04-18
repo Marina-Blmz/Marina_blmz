@@ -15,5 +15,5 @@ And further back, I was born and raised in St. Petersburg, Russia, where I also 
 I like R, FSL, ANTs, shell, computing on a cluster, reproducible open science practices, hierarchical random-effects models, sci-hub, and data-driven approaches. I am also greatly into learning new things and currently breaking my head over python and scikit-learn ML tools. In my future work, I want to investigate factors contributing to the heterogeneity of Alzheimer’s disease or other conditions related to pathological aging with data-driven approaches.
 
 
-{{< figure src="/images/avatar_small.jpg" title="Hello" >}}
+{{< figure src="/images/avatar_small.jpg" title="Marina Bluma" >}}
 
