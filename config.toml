@@ -7,7 +7,7 @@ googleAnalytics = "G-BD51CG8DSH"
 
 [params]
     author = "Marina Bluma"
-    description = "Marina Bluma's personal site"
+    description = "Marina Bluma's personal website"
     copyrightPublishYear = "2021"
     copyrightText = " Template by Dmitry Pechnikov. Tuning and photos by Marina Bluma"
     disableLogo = false
