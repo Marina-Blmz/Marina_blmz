@@ -13,4 +13,3 @@ summary: "my cv"
 
 
 {{< figure src="/images/CV_Bluma-1.png" width="100%" style="display: block; margin: auto;" />}}
-{{< figure src="/images/CV_Bluma-2.png" width="100%" style="display: block; margin: auto;" />}}
